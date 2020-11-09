@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  margin-left: 90px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-form {
+  margin-left: 30%;
+}
+
+.header-form input::placeholder{
+  font-family: 'System-ui' sans-serif;
+}

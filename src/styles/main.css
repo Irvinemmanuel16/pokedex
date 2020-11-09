@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'System ui', sans-serif;
+  min-height: 100vh;
+}

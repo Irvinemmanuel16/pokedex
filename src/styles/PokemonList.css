@@ -1,0 +1,19 @@
+.pokemonlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemonlist-container {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(5, 150px);
+  justify-items: center;
+  align-items: center;
+}
+
+.pokemonlist-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}

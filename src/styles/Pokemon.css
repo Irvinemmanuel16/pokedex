@@ -1,0 +1,22 @@
+.pokemon {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  align-items: center;
+  animation: down 0.5s ease forwards;
+  text-decoration: none;
+  color: black;
+}
+
+.pokemon-title {
+  text-transform: capitalize;
+}
+
+@keyframes down {
+  from {
+    transform: translateY(-25px)
+  }
+  to {
+    transform: translateY(0)
+  }
+}
