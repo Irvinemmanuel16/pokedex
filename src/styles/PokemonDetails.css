@@ -13,7 +13,8 @@
 
 .pokemondetails-ability, 
 .pokemondetails-type {
-  margin: 5px 0;
+  padding: 15px 0;
+  text-transform: capitalize;
   animation: appear 0.5s ease forwards;
 }
 
